@@ -1,0 +1,23 @@
+# Email Webhook Dependencies
+
+# Core FastAPI dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+python-multipart>=0.0.6
+
+# Firebase dependencies
+firebase-admin>=6.4.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# Email processing (if needed separately)
+email-validator>=2.1.0
+
+# Additional utilities
+python-dateutil>=2.8.2
+
+# Email processing dependencies
+imaplib2>=3.6
+email-validator>=2.1.0
